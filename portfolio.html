@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
-     <!-- Шапка -->
+     <!-- Header -->
     <header class="header">
       <div class="container header__section">
         <nav class="header__nav">
@@ -94,7 +94,7 @@
         </div>
       </div>
     </header>
-      <!-- Основной контент -->
+      <!-- Main content -->
     <main>
       <section class="portfolio-section">
         <div class="container">
@@ -389,7 +389,12 @@
               <div class="footer-submit__form">
                 <label class="footer-submit__label" for="submit-mail"></label>
                 <input class="footer-submit__input" type="email" name="submit-mail" id="submit-mail" placeholder="E-mail">
-                <button class="footer-submit__btn" type="submit">Подписаться</button>
+                <button type="submit" class="footer-submit__btn">
+                  Подписаться
+                  <svg class="button-submit__icon">
+                    <use href="./images/icons.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
               </div>
             </div>
           </div>

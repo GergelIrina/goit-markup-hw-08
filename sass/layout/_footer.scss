@@ -175,8 +175,8 @@
   }
 }
 
-.footer-submit__btn {
-  display: inline-flex;
+.footer-submit__btn{
+    display: inline-flex;
   align-items: center;
   justify-content: center;
 
@@ -203,12 +203,11 @@
     margin-top: 0px;
   }
 
-  &::after {
-    content: "";
-    display: inline-block;
-    width: 24px;
-    height: 20px;
-    margin-left: 10px;
-    background-image: url(../images/send.svg);
-  }
+}
+
+.button-submit__icon{
+  margin-left: 10px;
+  width: 24px;
+  height: 20px;
+  fill: #ffffff;
 }
