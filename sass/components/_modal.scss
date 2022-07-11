@@ -190,6 +190,11 @@ textarea {
   margin-right: 7px;
 }
 
+.form-checkbox:focus + .icon-check,
+.form-checkbox:hover + .icon-check {
+    border-color: var(--accent-color);
+}
+
 .form-checkbox {
   position: absolute;
 
@@ -211,6 +216,8 @@ textarea {
     border-color: var(--accent-color);
   }
 }
+
+
 
 .policy-label {
   position: relative;
