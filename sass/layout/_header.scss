@@ -26,6 +26,8 @@
 
 .header__logo {
   margin-right: 93px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .header__logo {
@@ -100,8 +102,6 @@
 
 .header-contack__list {
   margin-left: auto;
-  padding-top: 21px;
-  padding-bottom: 21px;
 }
 
 .header-contact__item + .header-contact__item {
@@ -141,11 +141,22 @@
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  .header-contact__link.email{
+    padding-top: 24px;
+  }
+  
+  .header-contact__link.tel{
+    padding-bottom: 24px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-contact__item:not(:last-child) {
     margin-bottom: 10px;
   }
 }
+
 
 .header-contact__icon {
   margin-right: 10px;
@@ -161,7 +172,7 @@
   right: 0;
   padding: 15px 10px 48px 40px;
   z-index: 999;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex {
@@ -290,4 +301,5 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
