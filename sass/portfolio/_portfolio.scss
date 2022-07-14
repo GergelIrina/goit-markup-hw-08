@@ -131,6 +131,7 @@
 .portfolio__link{
   display: flex;
   flex-direction: column;
+  height: 100%;
   box-shadow: none;
   transition: box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
@@ -143,6 +144,7 @@
 }
 
 .portfolio-border {
+  flex-grow: 1;
   border: 1px solid #eeeeee;
   border-top: transparent;
   padding: 20px 24px;
